@@ -1,3 +1,4 @@
+/***base styles***/
 body {
 	background-color: ;
 	font-size: 16px;
@@ -8,10 +9,37 @@ h1 {
 	font-size: 175%;
 }
 
-div {
+p {
+	border: 1px solid black;
 	width: 25%;
+	margin: ;
 }
+
+#p1 {
+	background-color: #811005;
+	width: ;
+	height: ;
+}
+
+#p2 {
+	background-color: #A52A2A;
+	width: ;
+	height: ;
+}
+
+#p3 {
+	background-color: #123456;
+	width: ;
+	height: ;
+}
+
 h2 {
 	font-size: 125%;
 	text-align: left;
 }
+
+/***desktop view***/
+
+/***tablet view***/
+
+/***mobile view***/
