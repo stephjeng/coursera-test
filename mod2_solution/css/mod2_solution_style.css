@@ -17,7 +17,7 @@ h1 {
 	font-size: 175%;
 }
 
-div.box {
+.box {
 	border: 1px solid black;
 	margin-right: 5px;
 	margin-left: 5px;
@@ -26,19 +26,19 @@ div.box {
 	width: ;
 }
 
-#content1 {
+.content1 {
 	background-color: #F797CC;
 	padding: 5px;
 	position: relative;
 }
 
-#content2 {
+.content2 {
 	background-color: #CA9AE3;
 	padding: 5px;
 	position: relative;
 }
 
-#content3 {
+.content3 {
 	background-color: #96DAEB;
 	padding: 5px;
 	margin-right: 0px;
@@ -61,15 +61,15 @@ div.box {
 	right: -1px;
 }
 
-#title1 {
+.title1 {
 	background-color: #8A426A;
 }
 
-#title2 {
+.title2 {
 	background-color: #7B5091;
 }
 
-#title3 {
+.title3 {
 	background-color: #1295B5;
 }
 
