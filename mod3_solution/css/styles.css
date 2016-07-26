@@ -1,0 +1,172 @@
+body {
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 90px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #A7D8E8;
+  border-radius: 0;
+  border: 0;
+}
+
+.container {
+  margin: 10px;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 50px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: #2C6D82;
+  margin-top: 0;
+  font-family: 'Kalam', cursive;
+  font-size: 1.6em;
+  text-align: left;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #2C6D82;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #2C6D82;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -65px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+h2 {
+  margin-top: -5px;
+  margin-bottom: 20px;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: 1000px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: ;
+  background-color: #A7D8E8;
+  overflow: auto;
+}
+#chicken-tile {
+  background-position: center;
+}
+#beef-tile {
+  background-position: center;
+}
+#chicken-tile .title, #beef-tile .title, #sushi-tile .title {
+  float: right;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: 400;
+  color: #2C6D82;
+}
+#chicken-tile p, #beef-tile p, #sushi-tile p {
+  padding: 0 15px 5px 15px;
+  font-size: 1.2em;
+  text-indent: 45px;
+}
+#chicken-tile a, #beef-tile a, #sushi-tile a {
+  float: right;
+}
+.back {
+  float: right;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  padding: 5%;
+  width: 75px;
+  height: 46px;
+  font-size: 0.8em;
+  text-align: center;
+  box-sizing: border-box;
+}
+#chicken-tile a:hover, #beef-tile a:hover, #sushi-tile a:hover {
+  background: white;
+  opacity: 0.6;
+}
+/* END HOME PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 15px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  /* End Header */
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+
